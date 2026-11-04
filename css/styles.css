@@ -679,3 +679,34 @@ REVIEW STYLES
   background-color: #000000;
   color: #ffffff;
 }
+
+
+/***********************************************************************************************************
+FOOTER STYLES
+***********************************************************************************************************/
+
+.btmlogo {
+    display:flex
+}
+
+.btmlogo p {
+    padding-left:10px;
+    padding-top:10px;
+}
+
+.btmlogotext {
+  padding-left:10px;
+}
+
+.footdesc {
+  font-size: 13px;
+}
+
+.socmed img {
+  width:40px;
+  padding:10px 10px 10px 0;
+}
+
+.socmed a {
+    text-decoration: none;
+}
