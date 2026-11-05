@@ -18,9 +18,12 @@ Top Bar Styling
     display:flex
 }
 
-.toplogo p {
+.toplogo a {
     padding-left:10px;
     padding-top:20px;
+    padding-bottom:15px;
+    text-decoration: none;
+    color:black;
 }
 
 .nav nav ul{
@@ -684,7 +687,15 @@ REVIEW STYLES
 /***********************************************************************************************************
 FOOTER STYLES
 ***********************************************************************************************************/
-
+footer {
+  width: 1300px;
+  background-color: #e4e4e4;
+  margin: auto;
+}
+.footbox {
+  width: 1200px;
+  margin: auto;
+}
 .btmlogo {
     display:flex
 }
@@ -770,3 +781,31 @@ FOOTER STYLES
   padding:0;
   margin:0;
 }
+
+
+
+
+
+
+
+
+
+/*****************************************************************************
+FEATURES  STYLES
+*****************************************************************************/
+.secured {
+  display: flex;
+  box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.03);
+  border-radius: 20px;
+}
+.secured img {
+  max-width: 800px;
+  border-radius: 20px;
+}
+
+.secured p {
+  font-weight: bold;
+  font-size:25px;
+  margin: auto 0px auto 100px;
+}
+
