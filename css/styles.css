@@ -698,15 +698,75 @@ FOOTER STYLES
   padding-left:10px;
 }
 
+.footbox {
+  display: flex;
+}
+
 .footdesc {
   font-size: 13px;
 }
 
 .socmed img {
   width:40px;
-  padding:10px 10px 10px 0;
+  padding:10px 10px 0px 0;
 }
 
 .socmed a {
     text-decoration: none;
+}
+
+.copyright p {
+  font-size: 13px;
+  color: grey;
+}
+
+.footlinks {
+  margin-left:auto;
+  display: flex;
+}
+
+.prodrow ul li {
+  list-style-type: none;
+  padding: 5px 0px 5px 0px;
+}
+.prodrow ul li a {
+  text-decoration:none;
+  color:black;
+}
+
+.prodrow ul {
+  padding:0;
+  margin:0;
+}
+
+.engrow {
+  margin: 0px 100px 0px 100px;
+}
+
+.engrow ul li {
+  list-style-type: none;
+  padding: 5px 0px 5px 0px;
+}
+.engrow ul li a {
+  text-decoration:none;
+  color:black;
+}
+
+.engrow ul {
+  padding:0;
+  margin:0;
+}
+
+.earnrow ul li {
+  list-style-type: none;
+  padding: 5px 0px 5px 0px;
+}
+.earnrow ul li a {
+  text-decoration:none;
+  color:black;
+}
+
+.earnrow ul {
+  padding:0;
+  margin:0;
 }
