@@ -294,7 +294,7 @@ PLANS STYLES
 
 .freeplan {
     padding: 60px 40px 30px 40px; 
-    background-colour: white;
+    background-color: white;
     border: 2px solid #b2b2b2;
     border-radius: 10px;;
     display:flex;
@@ -331,7 +331,7 @@ PLANS STYLES
 
 .stanplan {
     padding: 60px 40px 30px 40px; 
-    background-colour: white;
+    background-color: white;
     border: 2px solid #b2b2b2;
     border-radius: 10px;;
     display:flex;
@@ -369,7 +369,7 @@ PLANS STYLES
 
 .premplan {
     padding: 60px 40px 30px 40px; 
-    background-colour: white;
+    background-color: white;
     border: 2px solid #b2b2b2;
     border-radius: 10px;;
     display:flex;
@@ -402,6 +402,39 @@ PLANS STYLES
   height: 24px;
   background-image: url('../images/greencheck.svg');
   flex-shrink: 0;
+}
+
+.select {
+  background-color: white;
+  color: #ff0000;
+  border-radius: 100px;
+  border: solid red 2px;
+  padding: 10px 40px;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: sans-serif;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.3s ease;
+  margin-top: 10px; /* Reduced from 23px to sit closer to the price */
+}
+
+.select:hover {
+  background-color: #ff0000;
+  color: #ffffff;
+}
+
+.priceselect {
+  margin-top: auto; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pricing {
+  margin: 30px 0 0 0; /* Reduced from 50px to bring it closer to features */
+  padding: 0;
+  font-size: 20px;
 }
 
 
