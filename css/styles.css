@@ -378,6 +378,12 @@ PLANS STYLES
     width: 200px;
 }
 
+  .freeplan:hover,
+  .stanplan:hover,
+  .premplan:hover {
+    border-color: red;
+  }
+
 .pphead {
     font-weight: bold;
 }
@@ -842,3 +848,29 @@ FEATURES  STYLES
   margin: auto 0px auto 100px;
 }
 
+
+
+/*************************************************************************
+PRICING STYLES
+*************************************************************************/
+
+.servers {
+  display: flex;
+  box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.03);
+  border-radius: 20px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 950px;
+  margin:auto;
+}
+.servers img {
+  width: 950px;
+  border-radius: 20px;
+}
+
+.servers p {
+  font-weight: bold;
+  font-size:25px;
+  margin: 30px 0px 30px 100px;
+}
