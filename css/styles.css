@@ -125,7 +125,7 @@ BANNER STYLES
   margin-top: 0;
   font-size: 50px;
   font-weight: bold;
-  line-height: 1.2;
+  line-hei ght: 1.2;
 }
 
 .getstarted {
@@ -873,4 +873,270 @@ PRICING STYLES
   font-weight: bold;
   font-size:25px;
   margin: 30px 0px 30px 100px;
+}
+
+
+
+
+/*****************************************************************************************
+MEDIA QUERY
+******************************************************************************************/
+
+@media (max-width: 500px) {
+.everything {
+  max-width: 500px;
+}
+
+/*************************************************************************************
+TOPBAR QUERY
+*************************************************************************************/
+
+  .topbar {
+  display:flex;
+  flex-direction:row;
+  justify-content: left;
+  flex-wrap: wrap;
+}
+
+.toplogo {
+  order:1;
+}
+
+.nav {
+  order:3;
+  flex-basis:100%;
+  margin:0;
+}
+
+.nav nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: left;
+}
+
+.nav nav ul li {
+    padding: 20px 15px 20px 15px;
+    margin: 0;
+}
+
+.signinup {
+  order: 2;
+  margin-left: 100px;
+}
+
+.signin {
+        padding-top:20px;
+        padding-right: 25px;
+}
+
+.signbutton {
+  padding: 10px 40px;
+;
+}
+
+.signbutton {
+    margin-top:13px;
+}
+
+
+
+
+/**************************************************************************************
+BANNER QUERY
+***********************************************************************************/
+
+.banner {
+  flex-direction: column;
+  margin: auto;
+}
+
+.bancontent {
+  flex-direction:column;
+  justify-content:center;
+  margin:auto;
+  order: 2;
+}
+
+.bigbantext p {
+  font-size: 43px;
+}
+
+.banimage {
+  order:1;
+}
+
+.stats {
+  align-items: center;
+  padding: 30px 0;
+  margin-top: 60px;
+  width: 467px;
+}
+
+
+/******************************************************************************************
+FEATURES QUERY
+*****************************************************************************************/
+
+.features {
+  flex-direction: column;
+  width: 467px;
+}
+
+.featimg img {
+  width: 450px;
+}
+
+.feathead p {
+  text-align: center;
+}
+
+.featlist ul li {
+  justify-content: center;
+}
+
+
+/**************************************************************************
+PLANS QUERY
+****************************************************************************/
+
+.choosepack p {
+  width: 300px;
+  margin: auto;
+}
+
+.planboxes {
+  flex-direction: column;
+}
+
+.freeplan {
+  width: 300px;
+  justify-content: center;
+}
+
+.stanplan {
+  width: 300px;
+  justify-content: center;
+  margin: 20px 0px 20px 0px;
+}
+
+.premplan {
+  width: 300px;
+  justify-content: center;
+}
+
+
+
+/********************************************************************
+NETWORK QUERY
+**********************************************************************/
+
+.seelasles p {
+  width: 300px;
+  margin: auto;
+}
+
+.networkimg img {
+  width: 400px;
+}
+
+.sponsors {
+  width: 400px;
+}
+
+.sponsors picture{
+margin-left:20px;
+}
+
+.sponsors picture img{
+  width:470px;
+}
+
+
+/**************************************************************************
+REVIEWS QUERY
+****************************************************************************/
+
+.reviews{
+  padding-right:20px;
+}
+
+.stories p{
+  width: 300px;
+  margin: auto;
+  padding-bottom:40px;
+}
+
+.revboxes {
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+}
+
+.viezhrev {
+  height:200px;
+}
+
+.yessrev {
+  height:200px;
+  margin:20px 0 20px 0;
+}
+
+.kimrev {
+  height: 200px;
+}
+
+.button-container{
+  justify-content: center;
+  padding-left: 40px;
+}
+
+.subscribe{
+flex-direction: column;
+width: 350px;
+margin: 50px 25px 50px 25px;
+}
+
+.subbold{
+  order:1;
+}
+
+.subtext{
+  order:2;
+}
+
+
+
+.submessage{
+  order:1
+}
+
+.subbutton{
+  order:2;
+}
+
+
+/***********************************************************************
+FOOTBOX QUERY
+**********************************************************************/
+footer{
+  width: 500px;
+  margin:0;
+}
+.footbox {
+  display:flex;
+  flex-direction:column;
+  width:450px;
+}
+
+.footcontent {
+order:2;
+}
+
+.footlinks{
+  order:1;
+}
+
+  body {
+    background-color: lightblue;
+  }
 }
