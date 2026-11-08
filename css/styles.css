@@ -71,7 +71,7 @@ Top Bar Styling
   background-color: #ffffff;
   color: #333333;
   border-radius: 100px;
-  border: 2px solid #ff0000;
+  border: 2px solid #ab3838;
   padding: 10px 40px;
   font-size: 16px;
   font-weight: 600;
@@ -86,7 +86,7 @@ Top Bar Styling
 }
 
 .signbutton:hover {
-  background-color: #ff0000;
+  background-color: #ab3838;
   color: #ffffff;
 }
 
@@ -129,7 +129,7 @@ BANNER STYLES
 }
 
 .getstarted {
-  background-color: #ff0000;
+  background-color: #ab3838;
   color: white;
   border-radius: 10px;
   border: none;
@@ -412,7 +412,7 @@ PLANS STYLES
 
 .select {
   background-color: white;
-  color: #ff0000;
+  color: #ab3838;
   border-radius: 100px;
   border: solid red 2px;
   padding: 10px 40px;
@@ -426,7 +426,7 @@ PLANS STYLES
 }
 
 .select:hover {
-  background-color: #ff0000;
+  background-color: #ab3838;
   color: #ffffff;
 }
 
@@ -655,7 +655,7 @@ REVIEW STYLES
       height: 50px;
       border-radius: 50%;
       background-color: #ffffff;
-      border: 2px solid #ff0000;
+      border: 2px solid #ab3838;
       cursor: pointer;
       display: flex;
       align-items: center;
@@ -671,7 +671,7 @@ REVIEW STYLES
     }
 
     .circle-btn:hover {
-      background-color: #ff0000;
+      background-color: #ab3838;
     }
 .circle-btn:hover img {
   filter: brightness(0) invert(1);
@@ -703,7 +703,7 @@ REVIEW STYLES
 }
 
 .subbutt {
-  background-color: #ff0000;
+  background-color: #ab3838;
   color: white;
   border-radius: 10px;
   border: none;
@@ -767,7 +767,7 @@ footer {
 
 .copyright p {
   font-size: 13px;
-  color: grey;
+  color: rgb(59, 59, 59);
 }
 
 .footlinks {
@@ -1136,7 +1136,43 @@ order:2;
   order:1;
 }
 
-  body {
-    background-color: lightblue;
-  }
+
+
+/************************************************************************************
+FEATURES QUERY
+************************************************************************************/
+.secured{
+  display:flex;
+  flex-direction:column;
+}
+
+.secured picture img{
+  width:467px;
+}
+
+.secured p{
+  margin:auto;
+
+
+/***********************************************************************************
+PRICING QUERY
+************************************************************************************/
+
+
+}
+
+.servers picture img {
+  width: 467px;
+}
+.servers {
+  width:467px;
+  justify-content: center;
+  margin-right:50px;
+}
+
+.servers p {
+  margin:auto;
+  width: 350px;
+}
+
 }

@@ -7,12 +7,13 @@
     <title>Lasles VPN</title>
 </head>
 <body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
     <div class="everything">
         <header>
             <div class="topbar">
                 <div class="toplogo">
                     <img src="./images/logo.svg" alt="The Lasles VPN Logo" width="30">
-                    <a href="index.html"><strong>LaslesVPN</strong></a>
+                    <a href="index.html" aria-label="Home link"><strong>LaslesVPN</strong></a>
                 </div>
                 <div class="nav">
                     <nav>
@@ -30,13 +31,17 @@
                         <a href="#"><strong>Sign In</strong></a>
                     </div>
                     <div class="signup">
-                        <button class="signbutton">Sign Up</button>
+                        <button class="signbutton" aria-label="button">Sign Up</button>
                     </div>
                 </div>
             </div>
         </header>
+        <main id="main-content" tabindex="-1"></main>
                 <div class="secured">
-                    <img src="./images/secured.jpg" alt="an image of a laptop with a lock on the screen and the word secured displayed.">
+                        <picture>
+                            <source srcset="./images/secured.jpg" media="(min-width: 501px)" alt="an image of a laptop with a lock on the screen and the word secured displayed.">
+                            <img src="./images/secured-sm.jpg" alt="an image of a laptop with a lock on the screen and the word secured displayed.">
+                        </picture>
                     <p>
                         The Most Features.<br>The Most Secure.
                     </p>
@@ -68,6 +73,7 @@
 
                 </div>
             </div>
+            </main>
             <footer>
                     <div class="footbox">
                         <div class="footcontent">
@@ -80,13 +86,13 @@
                                     <p><strong>LaslesVPN</strong> is a private virtual network that <br>has unique features and high security.</p>
                                 </div>
                                 <div class="socmed">
-                                    <a href="https://facebook.com">
+                                    <a href="https://facebook.com" aria-label="Facebook link">
                                         <img src="./images/Facebook.svg" alt="A Facebook Icon">
                                     </a>
-                                    <a href="https://twitter.com">
+                                    <a href="https://twitter.com" aria-label="Twitter link">
                                         <img src="./images/Twitter.svg" alt="A Twitter Icon">
                                     </a>
-                                    <a href="https://instagram.com">
+                                    <a href="https://instagram.com" aria-label="Instagram link">
                                         <img src="./images/Instagram.svg" alt="An Instagram Icon">
                                     </a>
                                 </div>

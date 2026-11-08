@@ -7,15 +7,16 @@
     <title>Lasles VPN</title>
 </head>
 <body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
     <div class="everything">
         <header>
             <div class="topbar">
                 <div class="toplogo">
                     <img src="./images/logo.svg" alt="The Lasles VPN Logo" width="30">
-                    <a href="index.html"><strong>LaslesVPN</strong></a>
+                    <a href="index.html" aria-label="Home Link"><strong>LaslesVPN</strong></a>
                 </div>
                 <div class="nav">
-                    <nav>
+                    <nav aria-label="nav">
                         <ul>
                             <li><a href="#">About</a></li>
                             <li><a href="features.html">Features</a></li>
@@ -30,14 +31,18 @@
                         <a href="#"><strong>Sign In</strong></a>
                     </div>
                     <div class="signup">
-                        <button class="signbutton">Sign Up</button>
+                        <button class="signbutton" aria-label="button">Sign Up</button>
                     </div>
                 </div>
             </div>
         </header>
+        <main id="main-content" tabindex="-1">
                 <div class="plans">
                    <div class="servers">
-                    <img src="./images/servers.jpg" alt="an image representing your internet signal traveling through different servers">
+                    <picture>
+                            <source srcset="./images/servers.jpg" media="(min-width: 501px)" alt="an image representing your internet signal traveling through different servers">
+                            <img src="./images/servers-sm.jpg" alt="an image representing your internet signal traveling through different servers">
+                        </picture>
                     <p><strong>
                         Great Value and Access to All our Servers <br>With Every Package.
                     </strong></p>
@@ -57,7 +62,7 @@
                         </div>
                         <div class="priceselect">
                             <div class="pricing"><p><strong>Free</strong></p></div>
-                            <button class="select">Select</button>
+                            <button class="select" aria-label="button">Select</button>
                         </div>
                         </div>
                         <div class="stanplan">
@@ -74,7 +79,7 @@
                         </div>
                         <div class="priceselect">
                             <div class="pricing"><p><strong>$9 / mo</strong></p></div>
-                            <button class="select">Select</button>
+                            <button class="select" aria-label="button">Select</button>
                         </div>
                         </div>
 
@@ -93,12 +98,13 @@
                         </div>
                         <div class="priceselect">
                             <div class="pricing"><p><strong>$12 / mo</strong></p></div>
-                            <button class="select">Select</button>
+                            <button class="select" aria-label="button">Select</button>
                         </div>
                         </div>
                     </div>
                 
             </div>
+            </main>
             <footer>
                     <div class="footbox">
                         <div class="footcontent">
@@ -111,13 +117,13 @@
                                     <p><strong>LaslesVPN</strong> is a private virtual network that <br>has unique features and high security.</p>
                                 </div>
                                 <div class="socmed">
-                                    <a href="https://facebook.com">
+                                    <a href="https://facebook.com" aria-label="Facebook link">
                                         <img src="./images/Facebook.svg" alt="A Facebook Icon">
                                     </a>
-                                    <a href="https://twitter.com">
+                                    <a href="https://twitter.com" aria-label="Twitter link">
                                         <img src="./images/Twitter.svg" alt="A Twitter Icon">
                                     </a>
-                                    <a href="https://instagram.com">
+                                    <a href="https://instagram.com" aria-label="Instagram link">
                                         <img src="./images/Instagram.svg" alt="An Instagram Icon">
                                     </a>
                                 </div>
